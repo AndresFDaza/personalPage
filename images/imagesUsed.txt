@@ -1,3 +1,0 @@
-global : https://www.flaticon.com/free-icon/global_1231223#term=web&page=1&position=6
-user: https://www.flaticon.com/free-icon/user_149452
-wrench: https://www.flaticon.com/free-icon/wrench_297579#term=construction&page=1&position=53
