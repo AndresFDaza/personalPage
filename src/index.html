@@ -15,14 +15,14 @@
 
 <body>
 
-    <header id="header">
-        
+    <header id="Cabecera">
+
         <div id="navigator">
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Sobre mi</a>
-                <a href="#">Proyectos</a>
-                <a href="#">Contacto</a>
+                <a href="#Portada" class="enlaceCabezera">Inicio</a>
+                <a href="#SobreMi" class="enlaceCabezera">Sobre mi</a>
+                <a href="#Proyectos" class="enlaceCabezera">Proyectos</a>
+                <a href="#Contacto" class="enlaceCabezera">Contacto</a>
             </nav>
         </div>
 
@@ -35,78 +35,75 @@
 
     <section id="SobreMi">
         <h2>¿Quién soy?</h2>
-        <p>Hola, soy Andrés Daza, actualmente estudiante de Ingeniería
-            Multimedia en la <a href="http://www.umng.edu.co/">Universidad
+        <p class="mi-descripcion">Hola, soy Andrés Daza, actualmente estudiante de <a href="https://www.umng.edu.co/web/guest/programas-academicos/facultad-ingenieria/pregrados/ingenieria-multimedia"
+            target="_blank">Ingeniería Multimedia</a> en la <a href="http://www.umng.edu.co/" target="_blank">Universidad
                 Militar Nueva Granada</a>
-            (Bogotá, Colombia). En proceso para convertirme en desarrollador
-            frontend gracias al aprendizaje autónomo.
+            (Bogotá, Colombia).
+            <br>
+            En proceso para convertirme en desarrollador
+            frontend por medio del aprendizaje autónomo.
         </p>
         <div id="lista-conocimientos">
             <h3>Mis conocimientos:</h3>
-            <div id="lista-conocimientos-programacion" class="centraTitulo">
-                <h4>Programación</h4>
-                <ul class="items-lista">
-
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-
-                </ul>
-                <ul class="items-lista-nivel">
-                    <li class="basico">Básico</li>
-                    <li class="basico">Básico</li>
-                    <li class="basico">Básico</li>
-                    <li class="alto">Alto</li>
-                    <li class="medio">Medio</li>
-                    <li class="basico">Básico</li>
-                </ul>
-            </div>
-            <div id="lista-conocimientos-multimedia" class="centraTitulo">
-                <h4>Multimedia</h4>
-                <ul class="items-lista">
-                    <li>Adobe Ilustrator</li>
-                    <li>Adobe Photoshop </li>
-                    <li>Adobe Premiere</li>
-                    <li>Adobe After Efects</li>
-                    <li>Adobe Lightroom</li>
-                </ul>
-                <ul class="items-lista-nivel">
-                    <li class="basico">Básico</li>
-                    <li class="basico">Básico</li>
-                    <li class="basico">Básico</li>
-                    <li class="basico">Básico</li>
-                    <li class="basico">Básico</li>
-                </ul>
-            </div>
+            <div id="contiene-conocimientos">
+                <div id="lista-conocimientos-programacion" class="conocimientos-seccion">
+                    <h4>Programación</h4>
+                    <ul class="items-lista">
+    
+                        <li>JavaScript</li>
+                        <li>C++</li>
+                        <li>Git</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+    
+                    </ul>
+                </div>
+                <div id="lista-conocimientos-multimedia" class="conocimientos-seccion">
+                    <h4>Multimedia</h4>
+                    <ul class="items-lista">
+                        <li>Adobe Ilustrator</li>
+                        <li>Adobe Photoshop </li>
+                        <li>Adobe Premiere</li>
+                        <li>Adobe After Efects</li>
+                        <li>Adobe Lightroom</li>
+                        <li>Adobe XD</li>
+                    </ul>
+                </div>
+            </div>           
         </div>
     </section>
 
     <section id="Proyectos">
         <h2>Estos son mis proyectos:</h2>
-        <div class="proyecto-seccion">
-            <a href="#">Programación</a>
+        <div id="proyecto-programacion" class="proyecto-seccion">
+            <a href="#" class="proyecto-enlace">Programación</a>
         </div>
         <div class="proyecto-seccion">
-            <a href="#">Ilustraciones</a>
+            <a href="#" class="proyecto-enlace">Ilustraciones</a>
         </div>
         <div class="proyecto-seccion">
-            <a href="#">Animaciones</a>
+            <a href="#" class="proyecto-enlace">Animaciones</a>
         </div>
         <div class="proyecto-seccion">
-            <a href="#">Videos</a>
+            <a href="#" class="proyecto-enlace">Videos</a>
         </div>
         <div class="proyecto-seccion">
-            <a href="#">Edición</a>
+            <a href="#" class="proyecto-enlace">Edición</a>
+        </div>
+        <div class="proyecto-seccion">
+            <a href="#" class="proyecto-enlace">Física: Óptica y acústica</a>
         </div>
     </section>
 
     <section id="Contacto">
         <h2>¿Quieres contactar conmigo?</h2>
-        <p>Envía un correo a: <b>andresfdaza-developer@hotmail.com</b></p>
-        <p>Mi linkedin: <a href="https://www.linkedin.com/in/andresfdaza-es/">AndresFDaza</a></p>
+        <div class="contacto">
+            <p>Envía un correo a: <b>example-fornow@hotmail.com</b></p>
+            <p>Mi linkedin: <a href="https://www.linkedin.com/in/andresfdaza-es/" target="_blank">AndresFDaza</a></p>
+            <p>Mi github: <a href="https://github.com/AndresFDaza" target="_blank">AndresFDaza</a> </p>
+        </div>
+        
     </section>
 
     <script src="/scripts/script.js"></script>
