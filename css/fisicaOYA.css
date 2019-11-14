@@ -70,6 +70,12 @@ p{
   z-index: 2;
 }
 
+.tecla:active{
+  transform: scale(.95);
+  border-color: purple;
+  box-shadow: 0 0 2rem purple;
+}
+
 .tecla:not(.bemol) {
   float: left;
   width: 10%;
@@ -128,8 +134,6 @@ p{
   bottom: 7px;
   font-size: 20px;
 }
-
-
 
 
 #navigator{
