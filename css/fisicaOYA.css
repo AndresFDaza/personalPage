@@ -1,0 +1,146 @@
+:root{
+  
+}
+
+html  {
+    background: whitesmoke;
+    text-align: center;
+  }
+
+h1, h2 {
+  color: brown;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 0 30px;
+}
+
+a{
+  text-decoration: none;
+  color: darkred;
+}
+
+nav{
+  float: right;
+  }
+
+p{
+  font-size: 24px;
+}
+
+.enlaceCabezera{
+  display: inline-block;
+  padding: 3px;
+  padding-top: 5px;
+  margin-right: 15px;
+}
+
+.oprimiendo {
+  font-size: 120px;
+  line-height: 1;
+  text-shadow: 0 0 2rem purple;
+  transition: all .07s ease;
+  min-height: 120px;
+}
+
+.teclas {
+  display: block;
+  width: 100%;
+  height: 350px;
+  max-width: 880px;
+  position: relative;
+  margin: 40px auto 0;
+}
+
+.tecla {
+  position: relative;
+  border: 4px solid black;
+  border-radius: .5rem;
+  transition: all .07s ease;
+  display: block;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.tecla:not(.bemol) {
+  float: left;
+  width: 10%;
+  height: 120%;
+  background: white;    
+}
+
+.tecla.bemol {
+  position: absolute;
+  width: 6%;
+  height: 60%;
+  background: #000;
+  color: #eee;
+  top: 0;
+  z-index: 3;
+}
+
+.tecla[data-tecla="87"] {
+  left: 7%;
+}
+
+.tecla[data-tecla="69"] {
+  left: 17%;
+}
+
+.tecla[data-tecla="84"]  {
+  left: 37%;
+}
+
+.tecla[data-tecla="89"] {
+  left: 47%;
+}
+
+.tecla[data-tecla="85"] {
+  left: 57%;    
+}
+
+.tecla[data-tecla="79"] {
+  left: 77%;    
+}
+
+.tecla[data-tecla="80"] {
+  left: 87%;    
+}
+
+.oprime {
+  transform: scale(.95);
+  border-color: purple;
+  box-shadow: 0 0 1rem purple;
+}
+
+.pista{
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 7px;
+  font-size: 20px;
+}
+
+
+
+
+#navigator{
+  position: fixed;
+  width: 100%;
+  height: 25px;
+  top: 0;
+  background: silver ;
+}
+
+#instruye{
+  position: relative;
+  margin: 30px 0;
+}
