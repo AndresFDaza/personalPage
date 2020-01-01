@@ -97,7 +97,7 @@ function Sonido(frecuencia){
   var oscilacion = context.createOscillator();
   aumento=context.createGain();
   oscilacion.connect(aumento);
-  oscilacion.type="sine";
+  oscilacion.type="sawtooth";
   oscilacion.frequency.value=frecuencia;
   aumento.connect(context.destination);
   oscilacion.start(0);
