@@ -1,5 +1,10 @@
 :root{
-  
+  --principalColor: #0500D7;
+  --secondaryColor: #FF6600;
+  --tertiaryColor: #FFC400;
+
+  --firstAlernative:#0981FF;
+  --secondAlternative:#37BBFF;
 }
 
 html  {
@@ -8,7 +13,7 @@ html  {
   }
 
 h1, h2 {
-  color: brown;
+  color: var(--principalColor);
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 0.18em;
@@ -25,7 +30,7 @@ h3 {
 
 a{
   text-decoration: none;
-  color: darkred;
+  color: var(--principalColor);
 }
 
 nav{
@@ -46,7 +51,7 @@ p{
 .oprimiendo {
   font-size: 120px;
   line-height: 1;
-  text-shadow: 0 0 2rem purple;
+  text-shadow: 0 0 2rem var(--secondaryColor);
   transition: all .07s ease;
   min-height: 120px;
 }
@@ -72,8 +77,8 @@ p{
 
 .tecla:active{
   transform: scale(.95);
-  border-color: purple;
-  box-shadow: 0 0 2rem purple;
+  border-color: var(--secondaryColor);
+  box-shadow: 0 0 2rem var(--secondaryColor);
 }
 
 .tecla:not(.bemol) {
@@ -123,8 +128,8 @@ p{
 
 .oprime {
   transform: scale(.95);
-  border-color: purple;
-  box-shadow: 0 0 1rem purple;
+  border-color: var(--secondaryColor);
+  box-shadow: 0 0 2rem var(--secondaryColor);
 }
 
 .pista{

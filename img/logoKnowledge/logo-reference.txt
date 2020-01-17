@@ -1,0 +1,16 @@
+JavaScript : https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
+C++ : https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1024px-ISO_C%2B%2B_Logo.svg.png
+Git : https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1024px-ISO_C%2B%2B_Logo.svg.png
+Java : https://camo.githubusercontent.com/0fb6c3a56d588875bbab00cbc267f4ef85ea0c23/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f656e2f7468756d622f332f33302f4a6176615f70726f6772616d6d696e675f6c616e67756167655f6c6f676f2e7376672f33303070782d4a6176615f70726f6772616d6d696e675f6c616e67756167655f6c6f676f2e7376672e706e67
+Html : https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png
+Css : https://img2.freepng.es/20180619/fwl/kisspng-web-development-html-cascading-style-sheets-css3-b-minimalist-resume-5b29b19ed3e716.037890201529459102868.jpg
+
+-----------------------------
+
+ilustrator : https://upload.wikimedia.org/wikipedia/commons/6/66/Illustrator_CC_icon.png
+photoshop : https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png
+premiere : https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1024px-Adobe_Premiere_Pro_CC_icon.svg.png
+afterEffects : https://upload.wikimedia.org/wikipedia/commons/2/29/Adobe_After_Effects_CC_icon.png
+lightroom : https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Adobe_Photoshop_Lightroom_Classic_CC_icon.svg/1024px-Adobe_Photoshop_Lightroom_Classic_CC_icon.svg.png
+xd : https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Adobe_Photoshop_Lightroom_Classic_CC_icon.svg/1024px-Adobe_Photoshop_Lightroom_Classic_CC_icon.svg.png
+

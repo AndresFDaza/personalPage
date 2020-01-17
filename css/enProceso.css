@@ -1,0 +1,54 @@
+:root {
+    --principalColor: #0500D7;
+    --secondaryColor: #FF6600;
+    --tertiaryColor: #FFC400;
+
+    --firstAlernative:#0981FF;
+    --secondAlternative:#37BBFF;
+}
+body{
+    /* background-color: var(--principalColor); */
+}
+
+a{
+    text-decoration-style: dotted;
+    text-decoration-color: var(--secondaryColor);
+    color: var(--principalColor);
+}
+
+
+#CajaAnuncio{
+    margin: 6em;
+    background-color: var(--principalColor);
+    padding: 6em;
+}
+
+#Anuncio{
+    background-color: whitesmoke;
+}
+
+#Titular{
+
+    text-align: center;
+    padding: 1em;
+
+    font-size: 3em;
+    color: var(--firstAlernative);
+    font-family: impact;
+}
+
+#imgContend{
+    margin: 1em;
+    justify-content: center;
+    padding-left: 28%;
+}
+
+#imgConstruction{
+    border-radius: 30px;
+}
+
+#descripcion{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em
+}
