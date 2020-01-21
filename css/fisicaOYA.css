@@ -10,6 +10,7 @@
 html  {
     background: whitesmoke;
     text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
   }
 
 h1, h2 {
@@ -19,6 +20,7 @@ h1, h2 {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   margin: 30px;
+  font-family: 'Lato', sans-serif;
 }
 
 h3 {

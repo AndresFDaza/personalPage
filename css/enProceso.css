@@ -8,6 +8,7 @@
 }
 body{
     /* background-color: var(--principalColor); */
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 a{
@@ -34,7 +35,7 @@ a{
 
     font-size: 3em;
     color: var(--firstAlernative);
-    font-family: impact;
+    font-family: 'Lato', sans-serif;
 }
 
 #imgContend{
@@ -50,5 +51,6 @@ a{
 #descripcion{
     text-align: center;
     font-size: 2em;
-    padding: 1em
+    padding: 1em;
+    font-family: "Trebuchet MS";
 }

@@ -10,6 +10,8 @@
 body{
     /* background-image: url(/img/principalPage/cityBackground.jpg);
 background-size: contain; */
+font-family: "Trebuchet MS", sans-serif;
+/* background: var(--secondaryColor); */
 }
 
 section{
@@ -21,22 +23,36 @@ h1{
     font-size: 3em;
     margin: 30px ;
     text-align: center;
+    
 }
 h2{
     font-size: 2em;
     text-align: center;
     margin:10px;
+    font-family: 'Lato', sans-serif;
+    color: var(--secondaryColor);
+    background-color: whitesmoke;
+    padding: .2em .1em;
+    border-radius: 1em;
 }
 
 h3{
-    font-size: 1em;
+    font-size: 1.8em;
     text-align: center;
     margin: 20px;
+    color: var(--secondaryColor);
+    font-family: 'Lato', sans-serif;
 }
 
 h4{
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+    font-size: 1.4em;
+    padding: .2em .1em;
+    border-radius: 1em;
+    color: var(--principalColor);
 }
 
 a{
@@ -50,24 +66,40 @@ float: right;
 
 .enlaceCabezera{
     display: inline-block;
-    padding: 3px;
-    padding-top: 5px;
+    padding: 0.1em 0.6em;
     margin-right: 15px;
     color: var(--principalColor);
     font-size: 1.5em;
-    font-family: 'Franklin Gothic Medium';
-    font-style: oblique;
+    font-family: "Trebuchet MS";
+    /* font-style: oblique; */
+    border: 0.1em solid var(--principalColor);
+    border-radius: 1em;
+    background-color: whitesmoke;
 }
 
+.sobreMi-seccion{
+    display: inline-block;
+    /* border: solid var(--tertiaryColor); */
+    color: var(--firstAlernative);
+    line-height: 1.1em ;
+    margin: 2em;
+    /* padding: 2em; */
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+}
 
 .conocimientos-seccion{
     display: inline-block;
     width: 200px;
-    padding: 10px;
+    padding: 1em;
     margin:20px;
     margin-right: 50px;
     margin-left: 50px;
-    border: 2px solid gray;
+    font-size: 1.2em;
+    background-color: var(--tertiaryColor);
+    border-radius: 1em;
+    color: var(--firstAlernative);
+    line-height: 1.3em;
 
     /* font-size: 2em; */
 
@@ -79,7 +111,7 @@ float: right;
 
 
 .proyecto-seccion{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     display: inline-block;
     width: 25em;
     height: 20em;
@@ -92,8 +124,10 @@ float: right;
     text-align: center;
     text-align-last: center;
     /* padding: .5em; */
-    color: var(--principalColor);
-    background-color: silver;
+    color: var(--firstAlernative);
+    background-color: whitesmoke;
+    /* padding: 0.1em 0.4em; */
+    border-radius: 1px;
     font-size: 2em;
     font-family: Verdana;
 }
@@ -101,70 +135,87 @@ float: right;
 .contacto{
     margin: 20px;
     text-align: center;
+    text-decoration: var(--secondaryColor) dotted ;
 }
 
-#Cabecera{
-    /* background: crimson; */
-}
+
 
 
 #navigator{
     position: fixed;
     width: 100%;
-    height: 2.6em;
-    top: 0;
+    padding: 0.3em;
+    /* height: 2.6em;s */
+    /* top: 0; */
     background: whitesmoke ;
+    /* background-color: var(--secondaryColor); */
 }
 
 
 #Portada{
 padding: 50px ;
 height: 50em;
-background-image: url(/img/principalPage/cityBackground.jpg);
+background-image: url(https://images.pexels.com/photos/1507552/pexels-photo-1507552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 background-size: cover;
 background-position-y: -10em;
 background-repeat: no-repeat;
 background-attachment: fixed;
+/* padding-left: 1em; */
 }
 
 #tarjetaPortada{
     text-align: left;
-    width: 40em;
-    height: 20em;
-    padding: .3em;
-    margin: 10em 3em ;
-    border: .2em solid black;
+    width: 34em;
+    height: 21em;
+    padding: 1em;
+    margin: 10em 3.2em ;
+    border: .2em solid white;
+    border-radius: 1em;
     background: whitesmoke;
 }
 
 #MiNombre{
     text-align: left;
     margin:0;
-    font-size: 5em;
-    font-family: Impact;
+    font-size: 4em;
+    padding: .3em 0 0 .4em ;
+    font-family: 'Lato', sans-serif;
+    color: var(--principalColor);
+    /* font-weight: lighter; */
 }
 
 #MiPresentacion{
-    font-size: 2em;
-    font-family: sans-serif;
+    font-size: 1.6em;
+    font-family: "Trebuchet MS";
+    color : var(--firstAlernative) ;
+    padding: 1em;
+    line-height: 1.1em;
+    
+    /* text-align: center; */
+    /* font-weight: thin; */
 }
 
+#SobreMi{
+    text-align: center;
+}
 
 #mi-descripcion{
     display: inline-block;
     /* background: var(--firstAlernative); */
     /* color: white; */
-    width: 500px;
+    width: 25em;
     font-size: 1.5em;
     margin: auto;
     padding: 1.3em;
+    text-align: justify;
 }
 
 #imgPerfil{
     display: inline-block;
-    margin:auto;
-    width: 300px;
-    height: 300px;
+    width: 29em;
+    height: 29em;
+    background-image: url(/img/principalPage/profilePhoto.jpg);
+    background-size: cover;
 }
 
 
@@ -200,8 +251,9 @@ background-attachment: fixed;
 }
 
 #proyecto-animaciones{
-    background-image: url(/img/principalPage/animacion.png);
+    background-image: url(https://static.rfstat.com/bloggers_folders/user_2591565/my_media/2D-animation/5f90284e-e6c1-4fa3-b43c-c78196e3e327.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #proyecto-videos{
@@ -216,4 +268,15 @@ background-attachment: fixed;
 
 #Contacto{
     font-size: 2em;
+    color: whitesmoke;
+    background-color: var(--firstAlernative);
+    height: 21.6em;
+ 
+}
+
+#Contiene-contacto{
+    /* height: 16em; */
+    background-color: var(--tertiaryColor);
+    padding: 2em;
+    margin: 5em;
 }
