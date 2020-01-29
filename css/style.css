@@ -90,16 +90,16 @@ float: right;
 
 .conocimientos-seccion{
     display: inline-block;
-    width: 200px;
+    width: 13em;
     padding: 1em;
     margin:20px;
     margin-right: 50px;
     margin-left: 50px;
-    font-size: 1.2em;
+    font-size: 1em;
     background-color: var(--tertiaryColor);
     border-radius: 1em;
     color: var(--firstAlernative);
-    line-height: 1.3em;
+    line-height: 1.7em;
 
     /* font-size: 2em; */
 
@@ -107,6 +107,7 @@ float: right;
 
 .items-lista{
     display: block;
+    font-size: 1.5em;
 }
 
 
@@ -117,19 +118,23 @@ float: right;
     height: 20em;
     margin: 2em;
     padding: 1px;
+    background-position: center;
 }
 
 .proyecto-enlace {
     display: block;
     text-align: center;
     text-align-last: center;
-    /* padding: .5em; */
-    color: var(--firstAlernative);
-    background-color: whitesmoke;
-    /* padding: 0.1em 0.4em; */
-    border-radius: 1px;
+    
+    color: whitesmoke;
+    background-color: var(--firstAlernative);
+    
+    border-radius: .3em;
     font-size: 2em;
     font-family: Verdana;
+    margin-top: -1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
 }
 
 .contacto{
@@ -138,6 +143,12 @@ float: right;
     text-decoration: var(--secondaryColor) dotted ;
 }
 
+.contacto-enlace{
+    color: var(--firstAlernative);
+    text-decoration-color: whitesmoke;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+}
 
 
 
@@ -213,9 +224,12 @@ background-attachment: fixed;
 #imgPerfil{
     display: inline-block;
     width: 29em;
-    height: 29em;
-    background-image: url(/img/principalPage/profilePhoto.jpg);
-    background-size: cover;
+    height: 26.5em;
+    background-image: url(/img/principalPage/profilePhoto-2-EDIT.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position-x: -5em; */
 }
 
 
@@ -230,39 +244,45 @@ background-attachment: fixed;
     
 }
 
+#proyectos-container{
+    margin-top: 3em;
+}
+
 #proyecto-programacion{
-    background-image: url(https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image: url(/img/principalPage/programming.jpg);
     background-size: cover ;
 }
 
-#proyecto-UI-UX{
-    background-image: url(/img/principalPage/ux-ui.png);
+#proyecto-ilustraciones{
+    background-image: url(/img/principalPage/illustration.jpg);
     background-size: cover;
 }
+
 
 #proyecto-fisicaOYA{
-    background-image: url(/img/principalPage/piano.jpeg);
-    background-size: cover;
-}
-
-#proyecto-ilustraciones{
-    background-image: url(/img/principalPage/ilustracion.png);
-    background-size: cover;
-}
-
-#proyecto-animaciones{
-    background-image: url(https://static.rfstat.com/bloggers_folders/user_2591565/my_media/2D-animation/5f90284e-e6c1-4fa3-b43c-c78196e3e327.jpg);
+    background-image: url(/img/principalPage/fisicaoya.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #proyecto-videos{
-    background-image: url(https://images.unsplash.com/photo-1502209877429-d7c6df9eb3f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80);
+    background-image: url(/img/principalPage/videos.jpg);
+    background-size: cover;
+}
+
+#proyecto-animaciones{
+    background-image: url(/img/principalPage/animation.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#proyecto-UI-UX{
+    background-image: url(/img/principalPage/ux-ui.jpg);
     background-size: cover;
 }
 
 #proyecto-edicion{
-    background-image: url(https://image.freepik.com/foto-gratis/hombre-editando-fotos-computadora_53876-46864.jpg);
+    background-image: url(/img/principalPage/editing.jpg);
     background-size: cover;
 }
 
@@ -277,6 +297,12 @@ background-attachment: fixed;
 #Contiene-contacto{
     /* height: 16em; */
     background-color: var(--tertiaryColor);
+    color: var(--principalColor);
     padding: 2em;
     margin: 5em;
+    border-radius: .7em;
+}
+
+#contacto-correo{
+    color: var(--firstAlernative);
 }

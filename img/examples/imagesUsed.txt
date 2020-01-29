@@ -2,3 +2,4 @@ global : https://www.flaticon.com/free-icon/global_1231223#term=web&page=1&posit
 user: https://www.flaticon.com/free-icon/user_149452
 wrench: https://www.flaticon.com/free-icon/wrench_297579#term=construction&page=1&position=53
 inicioBackground: https://images.pexels.com/photos/158826/structure-light-led-movement-158826.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260
+responsive(1) : https://www.flaticon.com/free-icon/responsive_1055687?term=technology&page=1&position=1
