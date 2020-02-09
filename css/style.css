@@ -167,8 +167,8 @@ float: right;
 padding: 50px ;
 height: 50em;
 background-image: url(https://images.pexels.com/photos/1507552/pexels-photo-1507552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-background-size: cover;
-background-position-y: -10em;
+background-size: 100% 100%;
+/* background-position-y: -10em; */
 background-repeat: no-repeat;
 background-attachment: fixed;
 /* padding-left: 1em; */
@@ -253,16 +253,22 @@ background-attachment: fixed;
     background-size: cover ;
 }
 
-#proyecto-ilustraciones{
-    background-image: url(/img/principalPage/illustration.jpg);
-    background-size: cover;
-}
+#proyecto-compuGrafica{
+    background-image: url(/img/principalPage/compuGraphic.jpg);
+    background-size: cover ;
+    background-position: center;
 
+}
 
 #proyecto-fisicaOYA{
     background-image: url(/img/principalPage/fisicaoya.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#proyecto-ilustraciones{
+    background-image: url(/img/principalPage/illustration.jpg);
+    background-size: cover;
 }
 
 #proyecto-videos{

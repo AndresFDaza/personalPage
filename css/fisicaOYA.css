@@ -188,3 +188,28 @@ color: var(--firstAlernative) ;
 #teclado{
   margin-bottom: 12em;
 }
+
+#About-Seccion{
+  display: inline-block;
+  width: 100%;
+  height: 37rem;
+  background-color: var(--firstAlernative)
+  }
+  
+  
+  
+  #About-Container{
+      margin: 0 auto;
+      width: 60%;
+      margin-top: 2.5rem;
+      padding: 1rem 4rem;
+  
+      background-color: var(--tertiaryColor);
+      border-radius: 2rem;
+  }
+  
+  #About-Container p {
+      color: var(--principalColor);
+      font-size: 1.2rem;
+      text-align: center;
+  }

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#0981FF" />
+
+    <title>Tarea compuGrafica</title>
+
+    <link rel="shortcut icon" href="/img/examples/responsive(1).png" type="image/x-icon">
+    <link rel="stylesheet" href="css/resset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/computaGrafica.css">
+
+</head>
+
+<body>
+
+    <div id="navigator">
+        <nav>
+            <a href="/index.html" class="enlaceCabezera">Inicio</a>
+            <a href="/index.html#SobreMi" class="enlaceCabezera">Sobre mi</a>
+            <a href="/index.html#Proyectos" class="enlaceCabezera">Proyectos</a>
+            <a href="/index.html#Contacto" class="enlaceCabezera">Contacto</a>
+        </nav>
+    </div>
+
+    <section id="Proyect">
+        <div id="Animal-Container">
+            <div id="Loro-Container">
+                <div class="cuerpo">
+                    <div class="cola"></div>
+                    </div>
+                    <div class="pico-alto"></div>
+                    <div class="pico-bajo"></div>
+                    <div class="ojo">
+                      <div class="iris"></div>
+                    </div>
+                    <div class="ala"></div>
+            </div>
+        </div>
+        <div id="Presentation-Container">
+            <div id="Selection-Container">
+            <h1>Te presento a Andrés Felipe Daza Moreno</h1>
+                <div id="Selection"><p>Pregúntale al ave:</p></div>
+                <div id="Selection-Options">
+                    <ul >
+                        <li class=" button-List">
+                            <button class="button-element" id="Option1" onclick="ShowOption1()">¿Qué Hace?</button>
+                        </li>
+                        <li class=" button-List">
+                            <button class="button-element" id="Option2" onclick="ShowOption2()">¿Qué le gusta?</button>
+                        </li>
+                        <li class=" button-List">
+                            <button class="button-element" id="Option3" onclick="ShowOption3()">¿Quién quiere ser?</button>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div >
+                <h2 id="Selection-Title">Seleccione una opción</h2>
+            </div>
+            <div id="Selection-Information">
+                <div>
+                    <p class="text-Info" id="Text-Option1" >
+                        Andrés se despierta cada dia con la esperanza y el propósito de avanzar 
+                        paso a paso en su plan de vida, busca la manera de mejorar para si y en lo
+                        posible para de los demás. <br><br>
+
+                        Tambien estudia ingeniería multimedia en la universidad militar y procura
+                        aprovechar los tiempos libres aprendiendo algo nuevo o practicandolo, a veces
+                        desea que los días durasen más para cumplir todos sus objetivos. <br><br>
+
+                        Andrés aspira ser una persona correcta, intenta pasar tiempo con sus seres 
+                        queridos, no tolera la injusticia, se perdona por su pasado y aprende de 
+                        sus errores, no pretende rendirse porque no acepta morir sin haberlo intentado. 
+                    </p>
+                </div>
+                <div>
+                    <p class="text-Info" id="Text-Option2">
+                        A Andrés le gusta la naturaleza, los colores, sonidos, olores y la tranquilidad 
+                        que estos le trasmiten; Al tiempo que gusta de la tecnología y la ciencia porque 
+                        lo maravillan e interesan tanto como para investigarlo por si mismo. <br> <br>
+
+                        Le gustan los momentos en los que disfruta de documentales, libros, teatros y museos
+                        a los que tanto se dedicaba de joven y que con el tiempo ha dejado. <br> <br>
+
+                        A él gusta esa sensacion previa al ejercicio, despertarse temprano, el minimalismo,
+                        ama el cine, los conciertos, los romances, montar bicicleta bajo la lluvia, 
+                        comidas, antiguedades, la historia y 
+                        la gente apasionada. Todo aquello que lo haga sentir pleno y con vida.
+                
+
+                    </p>
+                </div>
+                <div>
+                    <p class="text-Info" id="Text-Option3">
+                        Andrés quiere ser un profesional valorado y reconocido, con la suficiente 
+                        libertad economica para decidir como y a qué se va a dedicar, tener la 
+                        posibilidad de invertir y mejorar la vida de quien lo necesite. <br> <br>
+
+                        Este joven quiere hablar muchos idiomas, estudiar todo aquello que siempre soñó
+                        con aprender y nunca pudo; No va a parar de estudiar y él mismo lo sabe. <br> <br> 
+
+                        No quiere tener un auto, un apartamento, una familia, un trabajo estable
+                        y aburrido o cualquier cosa que lo ate a la monotoneidad. Él quiere retos,
+                        superar y fracasar las veces que sea necesario, trabajar en otras ciudades,
+                        conocer comidas, puntos de vista y culturas.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="About-Seccion">
+        <h2>Acerca de este proyecto</h2>
+        <div id="About-Container">
+            <p>La profesora de introducción a la computación gráfica pidió como tarea escoger
+                algún animal que hiciese una presentación del estudiante en tercera
+                persona, este animal debía de tener alguna animación, por lo que se 
+                debían elegir las herramientas adecuadas para producirlo.
+                <br><br>
+                Teniendo en cuenta que la mayoría iba a trabajar con Illustrator, After Effects y
+                Premiere, para finalmente presentar un video; Decidí realizar este proyecto con
+                interacciones en una pagina web y de paso poner en práctica y prueba mis conocimientos
+                en esta área.
+                <br><br>
+                Se realizó el animal en CSS puro con sus animaciones automáticas y activadas por los
+                botones con el uso de JavaScript. Estos botones tambien ejecutan funciones para
+                determinar el texto que se pretende mostrar. Su maquetacion en HTML y su diseño 
+                 aún NO ES RESPONSIVE.
+            </p>
+        </div>
+    </section>
+
+    <script src="/js/computaGrafica.js"></script>
+
+</body>
+
+</html>

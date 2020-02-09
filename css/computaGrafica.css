@@ -1,0 +1,309 @@
+:root{
+    --principalColor: #0500D7;
+    --secondaryColor: #FF6600;
+    --tertiaryColor: #FFC400;
+
+    --firstAlernative:#0981FF;
+    --secondAlternative:#37BBFF;
+}
+
+body{
+    font-family: "Trebuchet MS", sans-serif;
+    position: relative;
+    /* height: 150%; */
+    margin: 0;
+    /* top: 20rem; */
+}
+
+a{
+    text-decoration: none;
+    color: var(--principalColor);
+}
+
+nav{
+float: right;
+}
+
+h1{
+    font-size: 3em;
+    margin: .5em ;
+    text-align: center;
+    color: var(--principalColor);
+    margin-bottom: 4rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin:10px;
+    font-family: 'Lato', sans-serif;
+    color: var(--secondaryColor);
+    background-color: whitesmoke;
+    padding: .2em .1em;
+    border-radius: 1em;
+    margin-top: 2.5rem;
+}
+
+p{
+    color: var(--firstAlernative);
+    font-size: 1.5rem;
+}
+
+
+.enlaceCabezera{
+    display: inline-block;
+    padding: 0.1em 0.6em;
+    margin-right: 15px;
+    color: var(--principalColor);
+    font-size: 1.3em;
+    font-family: "Trebuchet MS";
+    /* font-style: oblique; */
+    border: 0.1em solid var(--principalColor);
+    border-radius: 1em;
+    background-color: whitesmoke;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.button-List{
+    list-style: none;
+}
+
+.button-element{
+border-radius: 1rem;
+margin: .3rem;
+padding: .2rem;
+width: 60%;
+font-size: 1.2rem;
+cursor: pointer;
+color: var(--secondaryColor) ;
+}
+
+.text-Info{
+    position:absolute;
+    color: var(--firstAlernative);
+    font-size: 1.5rem;
+    display: none;
+    padding-right: 5rem;
+    left: 50%;
+    /* right: 2rem; */
+    /* background-color: fuchsia; */
+}
+.cuerpo{
+    width: 10rem;
+    height: 30rem;
+    background-color: var(--principalColor);
+    /* border-top-left-radius:10rem ; */
+    border-bottom-right-radius: 10rem;
+    position: absolute;
+    
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 10%;
+    
+    left: 35%;
+    top: 10%;
+    
+    z-index: 3;
+    
+    
+    }
+    
+    .pico-alto{
+    position: absolute;
+    width: 6rem;
+    height: 3rem;
+    background-color: var(--secondaryColor);
+    position: absolute;
+    left: 60%;
+    top: 16%;
+    
+    border-top-right-radius: 6rem;
+    
+    z-index: 2;
+    
+    }
+    
+    .pico-bajo{
+    position: absolute;
+    width: 4rem;
+    height: 3rem;
+    background-color: var(--tertiaryColor);
+    position: absolute;
+    left: 60%;
+    top: 22%;
+    
+    border-bottom-right-radius: 6rem;
+    
+    z-index: 1;
+    
+    }
+    
+    .ojo{
+    
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+    
+        background-color: black;
+        border-radius: 50%;
+    
+        left: 50%;
+        top: 16%;
+        z-index: 4;
+        
+        box-shadow: -.5rem 0 0 .7rem white;
+    
+        overflow: hidden;
+    }
+    
+    .parpado{
+        background-color: green;
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    .ala{
+    width: 7rem;
+    height: 20rem;
+    background-color: var(--firstAlernative);
+    
+    position: absolute;
+    
+    
+    
+    left: 30%;
+    top: 35%;
+    
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 10rem;
+    z-index: 5;
+    
+    transform: rotate(10deg);
+    
+    animation: aleteo;
+    transition: all 5s;
+    
+    }
+    
+    .cola{
+    width: 5rem;
+    height: 4rem;
+    background-color:var(--principalColor);
+    
+    position: absolute;
+    
+    border-bottom-left-radius: 10rem;
+    border-top-right-radius: -5rem;
+    border-top-left-radius: 1rem;
+    
+    
+    left: -4.5rem;;
+    bottom: 0%;
+    
+    }
+    
+
+#navigator-Container{
+    position: absolute;
+}
+
+#navigator{
+    /* position: fixed; */
+    width: 100%;
+    height: 2.7rem;
+    background-color: whitesmoke;
+
+}
+
+#Animal-Container{
+    display: inline-block;
+    float: left;
+    width: 45%;
+    height: 54rem;
+    /* background-color: deeppink; */
+    position: relative;
+    }
+
+#Loro-Container{
+    height: 70%;
+    width: 70%;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    /* background-image: url(https://image.freepik.com/vector-gratis/colorfull-parrot-logo-vector_44095-48.jpg); */
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+    background-position: center;
+    position: relative;
+}
+
+
+#Presentation-Container{
+display: inline-block;
+float: right;
+width: 55%;
+height: 54rem;
+/* background-color: chartreuse; */
+}
+
+#Selection-Container{
+    position: relative;
+    margin: 0 auto;
+    margin: 2rem;
+    /* padding: 1rem 0;  */
+    /* background-color: var(--tertiaryColor); */
+    border-radius: 3rem;
+}
+
+#Selection{
+    /* float: left; */
+    /* display: inline-block; */
+    margin-left: 6%;
+    font-size: 1.2rem;
+}
+
+#Selection-Options{
+    /* display: inline-block; */
+    /* float: right; */
+    width: 40%;
+    /* margin: 0 auto; */
+    margin-top: -3.4rem;
+    margin-left: 26%;
+}
+
+#Selection-Information{
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 80%;
+
+    background-color: fuchsia;
+
+}
+
+#About-Seccion{
+display: inline-block;
+width: 100%;
+height: 30rem;
+background-color: var(--firstAlernative)
+}
+
+
+
+#About-Container{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 2.5rem;
+    padding: 1rem 4rem;
+
+    background-color: var(--tertiaryColor);
+    border-radius: 2rem;
+}
+
+#About-Container p {
+    color: var(--principalColor);
+    font-size: 1.2rem;
+    text-align: center;
+}
