@@ -121,6 +121,12 @@ color: var(--secondaryColor) ;
     
     z-index: 2;
     
+    animation-name: picoArriba;
+    animation-duration: .7s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
     }
     
     .pico-bajo{
@@ -136,6 +142,13 @@ color: var(--secondaryColor) ;
     
     z-index: 1;
     
+    animation-name: picoAbajo;
+    animation-duration: .7s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 3s;
+
     }
     
     .ojo{
@@ -154,13 +167,14 @@ color: var(--secondaryColor) ;
         box-shadow: -.5rem 0 0 .7rem white;
     
         overflow: hidden;
+
+        animation:parpadeo;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-delay: 5s;
     }
     
-    .parpado{
-        background-color: green;
-        width: 1rem;
-        height: 1rem;
-    }
     
     .ala{
     width: 7rem;
@@ -181,13 +195,16 @@ color: var(--secondaryColor) ;
     
     transform: rotate(10deg);
     
-    animation: aleteo;
-    transition: all 5s;
-    
+    animation-name: aleteo;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-delay: 5s; */
     }
     
     .cola{
-    width: 5rem;
+    width: 4rem;
     height: 4rem;
     background-color:var(--principalColor);
     
@@ -198,7 +215,7 @@ color: var(--secondaryColor) ;
     border-top-left-radius: 1rem;
     
     
-    left: -4.5rem;;
+    left: -4rem;;
     bottom: 0%;
     
     }
@@ -306,4 +323,36 @@ background-color: var(--firstAlernative)
     color: var(--principalColor);
     font-size: 1.2rem;
     text-align: center;
+}
+
+@keyframes aleteo{
+    100%{
+        transform: rotate(45deg);
+        left: 20%;
+        top: 30%;
+    }
+}
+
+@keyframes parpadeo{
+    100%{
+        border-radius: 10%;
+        height: .3rem;
+        top: 18%;
+    }
+}
+
+@keyframes picoArriba{
+    100%{
+        transform: rotate(-15deg);
+        top: 15%;
+        left:58% ;
+    }
+}
+
+@keyframes picoAbajo{
+    100%{
+        transform: rotate(15deg);
+        top: 25%;
+        left: 58%;
+    }
 }
